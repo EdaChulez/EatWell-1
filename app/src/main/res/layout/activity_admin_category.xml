@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+
+            android:id="@+id/arabiata"
+            android:layout_width="101dp"
+            android:layout_height="61dp"
+            app:srcCompat="@drawable/arabiata" />
+
+        <ImageView
+            android:id="@+id/cookies1"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/cookies" />
+
+        <ImageView
+            android:id="@+id/blackburger1"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/blackburger" />
+
+        <ImageView
+            android:id="@+id/chickenburger1"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/chickenburger" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/roastsalad1"
+            android:layout_width="81dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/roastsalad" />
+
+
+        <ImageView
+            android:id="@+id/bolognese1"
+            android:layout_width="101dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/bolognese" />
+
+        <ImageView
+            android:id="@+id/margherita1"
+            android:layout_width="90dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/margherita" />
+
+        <ImageView
+            android:id="@+id/bigkingburger1"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/bigkingburger" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/crispychicken1"
+            android:layout_width="76dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/crispychicken" />
+
+        <ImageView
+            android:id="@+id/bbqchichkenburger1"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bbqchichkenburger" />
+
+        <ImageView
+            android:id="@+id/cocacola1"
+            android:layout_width="73dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/cocacola" />
+
+        <ImageView
+            android:id="@+id/tiramisu1"
+            android:layout_width="113dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/tiramisu" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/nude"
+        android:text="Check New Orders"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/nude"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+</RelativeLayout>
