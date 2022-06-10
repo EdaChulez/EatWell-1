@@ -34,25 +34,25 @@
             android:id="@+id/arabiata"
             android:layout_width="101dp"
             android:layout_height="61dp"
-            app:srcCompat="@drawable/arabiata" />
+            app:srcCompat="@drawable/arabiata1" />
 
         <ImageView
             android:id="@+id/cookies1"
             android:layout_width="88dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/cookies" />
+            app:srcCompat="@drawable/cookies1" />
 
         <ImageView
             android:id="@+id/blackburger1"
             android:layout_width="78dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/blackburger" />
+            app:srcCompat="@drawable/blackburger1" />
 
         <ImageView
             android:id="@+id/chickenburger1"
             android:layout_width="84dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/chickenburger" />
+            app:srcCompat="@drawable/chickenburger1" />
 
     </LinearLayout>
     <LinearLayout
@@ -69,27 +69,27 @@
             android:id="@+id/roastsalad1"
             android:layout_width="81dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/roastsalad" />
+            app:srcCompat="@drawable/roastsalad1" />
 
 
         <ImageView
             android:id="@+id/bolognese1"
             android:layout_width="101dp"
             android:layout_height="55dp"
-            app:srcCompat="@drawable/bolognese" />
+            app:srcCompat="@drawable/bolognese1" />
 
         <ImageView
             android:id="@+id/margherita1"
             android:layout_width="90dp"
             android:layout_height="58dp"
-            app:srcCompat="@drawable/margherita" />
+            app:srcCompat="@drawable/margherita1" />
 
         <ImageView
             android:id="@+id/bigkingburger1"
             android:layout_width="85dp"
             android:layout_height="match_parent"
             android:layout_marginStart="16dp"
-            app:srcCompat="@drawable/bigkingburger" />
+            app:srcCompat="@drawable/bigkingburger1" />
 
     </LinearLayout>
 
@@ -107,26 +107,26 @@
             android:id="@+id/crispychicken1"
             android:layout_width="76dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/crispychicken" />
+            app:srcCompat="@drawable/crispychicken1" />
 
         <ImageView
             android:id="@+id/bbqchichkenburger1"
             android:layout_width="79dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/bbqchichkenburger" />
+            app:srcCompat="@drawable/bbqchichkenburger1" />
 
         <ImageView
             android:id="@+id/cocacola1"
             android:layout_width="73dp"
             android:layout_height="79dp"
             android:layout_marginStart="16dp"
-            app:srcCompat="@drawable/cocacola" />
+            app:srcCompat="@drawable/cocacola1" />
 
         <ImageView
             android:id="@+id/tiramisu1"
             android:layout_width="113dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/tiramisu" />
+            app:srcCompat="@drawable/tiramisu1" />
 
     </LinearLayout>
 
